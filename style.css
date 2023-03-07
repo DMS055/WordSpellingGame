@@ -11,6 +11,15 @@ body {
     background-color: #F72585;
 }
 
+.flex-space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
 #display-container {
     background-color: #fff;
     padding: 3em 2em;
@@ -27,4 +36,21 @@ body {
 .app-title {
     text-align: center;
     font-weight: 500;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #adadad;
+}
+
+.score {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin: 1em 0 2em 0;
+}
+
+.streak-div, .timer-div {
+    background-color: #020130;
+    padding: 0.5em 2em;
+    color: #fff;
+    border-radius: 1.4em;
 }
