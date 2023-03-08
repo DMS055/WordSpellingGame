@@ -199,5 +199,5 @@ export let incorrectWords = [
 ];
 
 export const randomValue = (arr) => {
-    arr[Math.floor(Math.random() * arr.length)];
+    return arr[Math.floor(Math.random() * arr.length)];
 }
