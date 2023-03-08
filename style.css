@@ -97,6 +97,9 @@ button {
     width: 100%;
 }
 
+.hide {
+    display: none;
+}
 
 .flex-space {
     display: flex;

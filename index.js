@@ -1,0 +1,10 @@
+let timer = document.getElementsByClassName("timer-div")[0];
+let streak = document.querySelector(".streak-div");
+let quizContainer = document.getElementById("container");
+let userRes = document.getElementById("user-res");
+let startScreen = document.querySelector(".start-screen");
+let startBtn = document.getElementById("start-btn");
+let questionCount;
+let countdown;
+let score = 0;
+let count = 0;
