@@ -39,4 +39,27 @@ const generateQuestion = () => {
     }
 }
 
-function create() {}
+function create() {
+
+}
+
+function init() {
+    quizContainer.innerHTML = "";
+    questionCount = 0;
+    score = 0;
+    clearInterval(countdown);
+    timerDisplay();
+    create();
+}
+
+startBtn.addEventListener("click", () => {
+    startScreen.classList.add("hide");
+    displayContainer.classList.remove("hide");
+    wordArray = [];
+    init();
+});
+
+window.onload = () => {
+    startBtn.innerText = "Start";
+    userRes.innerText = "";
+};
