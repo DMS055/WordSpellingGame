@@ -144,3 +144,44 @@ button {
     color: #fff;
     border-radius: 1.4em;
 }
+
+.question {
+    text-align: center;
+    font-size: 2em;
+}
+
+.btn-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
+.optionEl {
+    width: 100%;
+    padding: 1em;
+    margin: 1.8em 0 0.3em;
+    text-align: center;
+    outline: none;
+    background-color: #fff;
+    border: 2px solid #020130;
+    border-radius: 2em;
+    cursor: pointer;
+    color: #020130;
+}
+
+.optionEl:disabled {
+    cursor: not-allowed;
+    color: #020130;
+}
+
+.correct {
+    border: none;
+    background-color: #2fe004;
+    color: #fff;
+}
+
+.incorrect {
+    border: none;
+    background-color: #ee4d38;
+    color: #fff;
+}

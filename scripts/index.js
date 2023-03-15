@@ -40,7 +40,22 @@ const generateQuestion = () => {
 }
 
 function create() {
+    generateQuestion();
+    quizContainer.innerHTML = ``;
+    let div = document.createElement("div");
+    div.classList.add("container-mid");
 
+    let questionEl = document.createElement("p");
+    questionEl.classList.add("question");
+    questionEl.innerHTML = wordArray[questionCount];
+    div.appendChild(questionEl);
+
+    div.innerHTML += `<div class="btn-container">
+                         <button class="optionEl" onclick="check(true, this)">Yes</button>
+                         <button class="optionEl" onclick="check(false, this)">No</button>
+                     </div>`;
+    quizContainer.appendChild(div);
+    
 }
 
 function init() {

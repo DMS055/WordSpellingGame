@@ -11,7 +11,7 @@ export let correctWords = [
 	"integration",
 	"professional",
 	"disagreement",
-	"temporary",
+	"temporiary",
 	"exhibition",
 	"helicopter",
 	"infrastructure",
@@ -106,8 +106,8 @@ export let incorrectWords = [
 	"aplication",
 	"intergation",
 	"proffesional",
-	"disagreement", // cs
-	"temporary",
+	"disagreement",
+	"temporiary", // cs
 	"exhibition",
 	"helicopter",
 	"infrastructure",
